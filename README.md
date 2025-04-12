@@ -1,43 +1,27 @@
-Project Title: Multiple Disease Prediction System
-Tech Stack: Python, Machine Learning, Streamlit, Pandas, NumPy, Scikit-learn
-Project Description:
-The Multiple Disease Prediction System is a machine learning-based web application designed to predict the likelihood of various diseases such as Diabetes, Heart Disease, and Parkinson’s Disease. The system uses pre-trained classification models and user input to assess health risks and provide early warnings.
+# 🏥 Multiple Disease Prediction System
 
-Key Features:
-User-Friendly Interface: Developed using Streamlit to allow users to easily input health parameters.
+This is a machine learning-based web application that predicts the likelihood of multiple diseases such as **Diabetes**, **Heart Disease**, and **Parkinson's Disease** based on user input. The goal is to assist users in getting a preliminary understanding of their health condition before consulting a medical professional.
 
-Multiple Disease Coverage: Includes separate predictive models for:
+## 🔍 Features
 
-Diabetes Prediction
+- Predicts:
+  - Diabetes
+  - Heart Disease
+  - Parkinson's Disease
+- Simple and user-friendly web interface
+- Uses machine learning models trained on publicly available datasets
+- Real-time prediction based on user inputs
 
-Heart Disease Prediction
+## 🛠️ Tech Stack
 
-Parkinson's Disease Prediction
+- **Frontend:** Streamlit (Python Web Framework)
+- **Backend:** Python, Scikit-learn
+- **Machine Learning Models:** Logistic Regression, Random Forest, etc.
+- **Libraries Used:** Pandas, NumPy, Scikit-learn, Streamlit, pickle
 
-ML Models: Trained using algorithms like Logistic Regression, Random Forest, and Support Vector Machine.
+## 📊 Datasets Used
 
-Data Handling: Used Pandas and NumPy for data preprocessing and feature engineering.
-
-Evaluation Metrics: Achieved high accuracy and F1-score using train-test split and cross-validation.
-
-Real-time Prediction: Inputs are processed in real-time to deliver instant predictions.
-
-Impact:
-Helps users assess their health condition early and take preventive actions. The system can be used as a prototype for integrating with larger health tech platforms or diagnostic tools.
-
-
-Multiple Disease Prediction System – Technical Skills Used
-Python Programming: Core language for building the application, implementing logic, and handling data processing.
-
-Machine Learning Algorithms: Applied Logistic Regression, Random Forest, and Support Vector Machine for disease classification.
-
-Data Preprocessing: Utilized Pandas and NumPy for cleaning, transforming, and preparing datasets.
-
-Model Evaluation: Employed techniques such as train-test split, cross-validation, and used metrics like accuracy, precision, recall, and F1-score.
-
-Scikit-learn: For training and evaluating ML models and performing hyperparameter tuning.
-
-Streamlit: Built an interactive and user-friendly web interface for real-time predictions.
-
-Matplotlib & Seaborn (optional): For visualizing dataset distributions and correlation between features (if used).
+- **Diabetes Dataset:** [Kaggle - Diabetes Prediction](https://www.kaggle.com/datasets/mathchi/diabetes-data-set)
+- **Heart Disease Dataset:** [Kaggle - Heart Disease UCI](https://www.kaggle.com/datasets/ronitf/heart-disease-uci)
+- **Parkinson's Disease Dataset:** [UCI ML Repository - Parkinson’s Dataset](https://archive.ics.uci.edu/ml/datasets/parkinsons)
 
